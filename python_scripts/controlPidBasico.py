@@ -14,9 +14,9 @@ M###.### ó m###.###:    establece la máxima tesion soportada por el motor.
 X ó x:                  reinicia la placa.
 
 En las ultimas celdas estan las implementaciones de:
-    Linea 179 PID simple para controlar posición
-    Linea 211 PID simple para controlar velocidad
-    Linea 265 PID en cascada para controlar posición: El control mas rapido controla la velocidad del motor y
+    Linea 188 PID simple para controlar posición
+    Linea 219 PID simple para controlar velocidad
+    Linea 272 PID en cascada para controlar posición: El control mas rapido controla la velocidad del motor y
                                                       un pid mas lento controla la referencia de velocidad en funcion de la posición).
                                                               __________        __________    _________
                                                     REF -O---| PID pos |---O---| PID vel |---| Motor  |
