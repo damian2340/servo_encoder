@@ -13,7 +13,7 @@ M###.### ó m###.###:    establece la máxima tesion soportada por el motor.
                         valor usado por el controlador para fijar la modulación por ancho de pulso: PWM = 0,5 (1+Vsalida/Vmaxima).
 X ó x:                  reinicia la placa.
 
-las ultimas seldas son la implementacion de:
+En las ultimas celdas estan las implementaciones de:
     Linea 179 PID simple para controlar posición
     Linea 211 PID simple para controlar velocidad
     Linea 265 PID en cascada para controlar posición: El control mas rapido controla la velocidad del motor y
